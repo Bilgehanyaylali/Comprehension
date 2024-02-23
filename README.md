@@ -18,7 +18,7 @@ example = {x: x**2 for x in range(5)}
 
 Set comprehensions are similar to list comprehensions but produce sets instead of lists. They use curly braces like dictionary comprehensions but without the key-value expression.
 
-square_set = {x**2 for x in range(5)}
+example = {x**2 for x in range(5)}
 
 In summary, comprehensions in Python provide a concise and readable way to create lists, dictionaries, and sets by combining loops and conditional statements into a single expression.
 
