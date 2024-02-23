@@ -66,7 +66,6 @@ dict_comp3 = {i: i * 2 for i in numbers if i % 2 == 0}
 
 # Set Comprehensions #
 
-
 list_set = [1, 1, 2, 2, 2, 5, 6, 7, 7, 7, 7]
 
 comprehension_Set ={i for i in list_set}
