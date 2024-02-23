@@ -26,6 +26,11 @@ comprehension5 = [(i, j) for i, j in enumerate(list1) if i % 2 == 0]
 
 ###########################################
 
+
+comprehensions = [i ** 3 for i in range(1, 10)]
+print("Cubic numbers are:", comprehensions)
+# Cubic numbers are: [1, 8, 27, 64, 125, 216, 343, 512, 729]
+
 colours = ["Blue", "Black", "Brown", "Green", "White", "Pink", "Turquoise", "Lilac"]
 
 bad_colours = ["Pink", "Turquoise", "Lilac"]
@@ -38,6 +43,11 @@ comprehension7 = ["Yes" if i not in bad_colours else "No" for i in colours]
 
 #####################################################
 # Dictionary_Comprehensions #
+
+list3 = [99, 100, 101, 102, 103, 104, 105, 106]
+
+dict_comprehension = {i: i - 99 for i in list3}
+# {99: 0, 100: 1, 101: 2, 102: 3, 103: 4, 104: 5, 105: 6, 106: 7}
 
 dict1 = {"Blue": 5, "Green": 4, "Black": 3, "Purple": 2, "Orange": 1, "Pink": 0}
 
@@ -54,4 +64,10 @@ numbers = range(8)
 dict_comp3 = {i: i * 2 for i in numbers if i % 2 == 0}
 # {0: 0, 2: 4, 4: 8, 6: 12}
 
+# Set Comprehensions #
 
+
+list_set = [1, 1, 2, 2, 2, 5, 6, 7, 7, 7, 7]
+
+comprehension_Set ={i for i in list_set}
+# {1, 2, 5, 6, 7}
