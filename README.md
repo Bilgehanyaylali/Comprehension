@@ -20,7 +20,7 @@ Set comprehensions are similar to list comprehensions but produce sets instead o
 
 example = {x**2 for x in range(5)}
 
-In summary, comprehensions in Python provide a concise and readable way to create lists, dictionaries, and sets by combining loops and conditional statements into a single expression.
+In summary,, comprehensions in Python provide a concise and readable way to create lists, dictionaries, and sets by combining loops and conditional statements into a single expression.
 
 
 
